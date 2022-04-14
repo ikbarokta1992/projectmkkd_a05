@@ -1,0 +1,17 @@
+@media all and (max-width: 670px){
+    .header-right{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-icon:checked ~ .header-right {
+        display: block;
+        max-height: 100%;
+    }
+
+    
+}
